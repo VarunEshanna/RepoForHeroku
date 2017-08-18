@@ -1,1 +1,1 @@
-web: java -jar target/com.adobe.springboot.jar
+web: java -jar target/Custom.jar
