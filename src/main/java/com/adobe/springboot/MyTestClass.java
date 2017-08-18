@@ -12,4 +12,9 @@ public class MyTestClass {
 		SpringApplication.run(MyTestClass.class, args);
 	}
 
+	@RequestMapping("/index")
+  	public String index() {
+    	return "index";
+  	}
+
 }
